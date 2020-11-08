@@ -47,5 +47,5 @@ app.use(middlewares.errorHandler);
 const port = process.env.PORT || 1337;
 
 app.listen(port, ()=>{
-    console.log(`Listenning at https://localhost:${port}`);
+    console.log(`Listening at https://localhost:${port}`);
 });
